@@ -5,7 +5,7 @@ import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 import { darkLogo } from "../assets/index";
 import { RotatingLines } from "react-loader-spinner";
 import { useDispatch } from "react-redux";
-import {setUserInfo} from "../redux/amazonSlice";
+import { setUserInfo } from "../redux/amazonSlice";
 
 const Signin = () => {
   const dispatch = useDispatch();
@@ -47,7 +47,8 @@ const Signin = () => {
           const user = userCredential.user;
           dispatch(setUserInfo({
             _id:user.uid,
-            userName:user.email,
+            userName:user.displayName,
+            email:user.email,
             image:user.photoURL
           }))
           // ...

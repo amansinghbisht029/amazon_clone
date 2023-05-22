@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { RotatingLines } from "react-loader-spinner";
 
 const Registration = () => {
-  const navigate=useNavigate();
+  const navigate = useNavigate();
   const auth = getAuth();
   const [clientName, setClientName] = useState("");
   const [email, setEmail] = useState("");
