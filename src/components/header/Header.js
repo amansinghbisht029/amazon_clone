@@ -10,6 +10,7 @@ import { allItems } from "../../constants";
 import { logo } from "../../assets/index";
 import HeaderBottom from "./HeaderBottom";
 import { Link } from "react-router-dom";
+import { userSignOut } from "../../redux/amazonSlice";
 
 const Header = () => {
   const auth = getAuth();
@@ -128,7 +129,7 @@ const Header = () => {
         <Link to="/cart">
           <div className="flex items-start justify-center headerHover relative">
             <ShoppingCartIcon />
-            <p className="hidden mdl:inline-flex text-xs font-semibold mt-3 text-whiteText">
+            <p className="hidden mdl:inline-flex text-xs font-semibold mt-4 text-whiteText">
               Cart
             </p>
             <span className="absolute text-xs top-0 left-6 w-4 font-semibold p-1 h-4 bg-[#f3a847] text-amazon_blue rounded-full flex justify-center items-center">
