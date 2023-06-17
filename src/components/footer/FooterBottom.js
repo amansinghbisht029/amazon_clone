@@ -33,12 +33,12 @@ const FooterBottom = () => {
         </div>
         <div>
           <p className="font-normal text-[12px] text-[#DDD] leading-3">
-            © 1996-2022, Amazon.com, Inc. or its affiliates
+            © 1996-2023, Amazon.com, Inc. or its affiliates
           </p>
         </div>
         <div className="text-gray-300 text-sm gap-2 md:gap-4 py-8 mt-4 flex">
           <p>
-            Made with <span>&#x2764;&#xFE0F;</span> by Aman Singh Bisht
+            Made With <span>&#x2764;&#xFE0F;</span> By Aman Singh Bisht
           </p>
         </div>
       </div>
