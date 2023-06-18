@@ -1,3 +1,7 @@
+# Preview 😎
+
+<img width="960" alt="amazonclone" src="https://github.com/amansinghbisht029/amazon_clone/assets/83057532/a701b427-3c48-4b34-a869-271b4a13f215">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
