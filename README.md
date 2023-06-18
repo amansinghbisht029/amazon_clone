@@ -2,7 +2,7 @@
 
 <img width="960" alt="amazonclone" src="https://github.com/amansinghbisht029/amazon_clone/assets/83057532/a701b427-3c48-4b34-a869-271b4a13f215">
 
-https://github.com/amansinghbisht029/amazon_clone/assets/83057532/8a28d958-7a11-4ac2-adde-eb2c67373287
+
 
 # Getting Started with Create React App
 
